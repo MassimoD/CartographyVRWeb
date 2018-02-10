@@ -7,5 +7,5 @@ Suivez le commentaire dans le fichier js/data.js. Le seul fichier qui doit être
 ## Version à télécharger
 Branche : Master
 
-## Open A-Frame Inspector in browser
-use Alt + Ctrl + i
+## Ouvrir l'inspecteur A-Frame dans le navigateur
+utiliser : Alt + Ctrl + i
