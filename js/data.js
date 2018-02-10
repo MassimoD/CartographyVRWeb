@@ -9,9 +9,11 @@ window.cartography.textDefaults = {
 /*
 	Pour créer une nouvelle plane, il faut juste ajouter ce qui suit dans la variable planes (il y a un commentaire en bas pour vous dire où les ajouter) :
 		{
-			'height' : '', // nombre (pixel)
-			'width' : '', // nombre (pixel)
+			'height' : '', // hauteur de la surface de couleur
+			'width' : '', // longueur de la surface de couleur
 			'rotation' : '', // 3 nombres représentant l'angle en degré dans l'ordre (x y z)
+			'position' : '0 0 0', // position (x y z)
+			'backgroundColor' : 'black', // couleur de fond
 			'text' : {
 				'content' : '', // le texte affiché
 				'align' : '', // par défaut c'est centré
