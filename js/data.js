@@ -7,7 +7,7 @@ window.cartography.textDefaults = {
 };
 
 /*
-	Pour créer une nouvelle plane, il faut juste ajouter ce qui suit dans la variable planes :
+	Pour créer une nouvelle plane, il faut juste ajouter ce qui suit dans la variable planes (il y a un commentaire en bas pour vous dire où les ajouter) :
 		{
 			'height' : '', // nombre (pixel)
 			'width' : '', // nombre (pixel)
@@ -64,4 +64,6 @@ window.cartography.planes = [
 			'align' : 'left',
 		}
 	},
+
+	// Les données doivent être rajoutés juste au dessus de cette ligne de commentaire
 ];
