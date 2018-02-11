@@ -23,7 +23,7 @@ var window = window;
 		var textDefaults = window.cartography.textDefaults;
 		var data = window.cartography.planes;
 		var scene = document.getElementById('scene');
-		var elem, text, plane, positions;
+		var elem, text, plane;
 		
 		for( var i = 0; i < data.length; i++ ) {
 			plane = data[i];
@@ -34,6 +34,7 @@ var window = window;
 			elem.setAttribute('rotation', plane.rotation);
 			elem.setAttribute('position', plane.position);
 			elem.setAttribute('color', plane.backgroundColor);
+			elem.setAttribute('class','link');
 			
 			text = document.createElement('a-text');
 			text.setAttribute('value', plane.text.content);
@@ -48,7 +49,92 @@ var window = window;
 			elem.appendChild(text);
 			scene.appendChild(elem);
 		}
+	};
+
+    Math.radians = function(degrees) {
+        return degrees * Math.PI / 180;
+    };
+
+    Math.degrees = function(radians) {
+        return radians * 180 / Math.PI;
+    };
+
+    function deepEquals(o1, o2) {
+        var k1 = Object.keys(o1).sort();
+        var k2 = Object.keys(o2).sort();
+        if (k1.length != k2.length) return false;
+        return k1.zip(k2, function(keyPair) {
+            if(typeof o1[keyPair[0]] == typeof o2[keyPair[1]] == "object"){
+                return deepEquals(o1[keyPair[0]], o2[keyPair[1]])
+            } else {
+                return o1[keyPair[0]] == o2[keyPair[1]];
+            }
+        }).all();
+    }
+
+    function jsonEqual(a,b) {
+        return JSON.stringify(a) === JSON.stringify(b);
+    }
+
+    function animateCameraToNewPositionWithKeyboard(e)
+    {
+        var keycode = event.keyCode || e.which;
+        if(keycode == '13') {
+            animateCameraToNewPosition();
+        }
+    }
+
+    function animateCameraToNewPosition() {
+        var raycaster = AFRAME.scenes[0].querySelector('[raycaster]').components.raycaster;
+
+        if(!raycaster.intersectedEls[0]) return;
+
+        var target = raycaster.intersectedEls[0];
+
+        var positions = {
+            x : target.getAttribute('position').x,
+            y : target.getAttribute('position').y,
+            z : target.getAttribute('position').z + 10,
+        };
+
+        var rotations = {
+            x : target.getAttribute('rotation').x,
+            y : target.getAttribute('rotation').y,
+            z : target.getAttribute('rotation').z,
+        };
+
+        if(positions.x > 0)
+            positions.x -= Math.tan(Math.radians(rotations.y)) * -10;
+        else if(positions.x < 0)
+            positions.x -= Math.tan(Math.radians(rotations.y)) * -10;
+        else
+            positions.x -= Math.tan(Math.radians(rotations.y));
+
+        var camera = document.getElementById('camera');
+
+        camera.setAttribute('animation__moveCamera', {from : camera.getAttribute('position').x + ' ' + camera.getAttribute('position').y + ' ' + camera.getAttribute('position').z});
+        camera.setAttribute('animation__rotateCamera', {from : camera.getAttribute('rotation').x + ' ' + camera.getAttribute('rotation').y + ' ' + camera.getAttribute('rotation').z});
+
+        camera.setAttribute('animation__rotateCamera', {to : rotations});
+        camera.setAttribute('animation__moveCamera', {to : positions});
+
+        if(!jsonEqual(positions, camera.getAttribute('position')) && !jsonEqual(rotations, camera.getAttribute('rotation'))) {
+            camera.emit('rotateCamera');
+            camera.emit('moveCamera');
+            camera.addEventListener('animationcomplete', setCameraNewValues);
+        }
 	}
-	
+
+    function setCameraNewValues(e)
+    {
+        var camera = document.getElementById('camera');
+        camera.removeEventListener('animationcomplete', setCameraNewValues);
+        camera.setAttribute('position', camera.getAttribute('animation__moveCamera').to);
+        camera.setAttribute('rotation', camera.getAttribute('animation__rotateCamera').to);
+    }
+
+	document.addEventListener('keyup', animateCameraToNewPositionWithKeyboard);
+    AFRAME.scenes[0].addEventListener('buttonup', animateCameraToNewPosition);
+
 	loadScript("./js/data.js", generatePlanes);
 })();
