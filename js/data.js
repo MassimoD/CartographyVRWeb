@@ -67,14 +67,15 @@ window.cartography.planes = [
 		}
 	},
     {
-        'height' : '5',
+        'height' : '6',
         'width' : '12',
         'rotation' : '0 -45 0',
-        'position' : '30 -4 -15',
+        'position' : '30 -5 -15',
         'backgroundColor' : '#202020',
         'text' : {
             'content' : 'The juxtaposing of disparate objects and ideas has, after all,  often been viewed as an intrinsic aspect of creativity. The interplay of ideas from disparate areas of knowledge in creative arts research creates conditions for the emergence of new analogies, metaphors and models for understanding objects of enquiry.( Barrett 2007b, p.7)',
-        }
+            'align' : 'left',
+		}
     },
 
 	// Les données doivent être rajoutés juste au dessus de cette ligne de commentaire
