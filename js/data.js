@@ -231,7 +231,7 @@ window.cartography.planes = [
         'position' : '39 7 -5',
         'backgroundColor' : '#ffffff',
         'text' : {
-            'content' : 'Thus artistic research differs from empirical research,  which tries to find general laws. Nevanlinnna suggests, in line with Sören Kjorup’s argument,  that « Perhaps only artistic research will realise the program of ‘aesthetic research’ proposed by the inventor of the term Alexander Baumgarten in the 18th century: it produces knowledge of the singular. This kind of knowledge concerns the singular and the unique and cannot be generalised into laws, but it is nevertheless knowledge. » (Arlander 2013, p. 157)',
+            'content' : 'Thus artistic research differs from empirical research,  which tries to find general laws. Nevanlinnna suggests, in line with Sören Kjorup’s argument,  that << Perhaps only artistic research will realise the program of ‘aesthetic research’ proposed by the inventor of the term Alexander Baumgarten in the 18th century: it produces knowledge of the singular. This kind of knowledge concerns the singular and the unique and cannot be generalised into laws, but it is nevertheless knowledge. >> (Arlander 2013, p. 157)',
             'align' : 'left',
         }
     },
@@ -293,10 +293,165 @@ window.cartography.planes = [
 
     // ------------------------------------------------------------------------
     {
+        'height' : '2',
+        'width' : '9',
+        'rotation' : '0 0 0',
+        'position' : '-1 5 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Caracteristics',
+            'width' : '16',
+        }
+    },
+    {
+        'height' : '12',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-1 -3 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'In addition to the	<< approach of artistic research... the tacit and intuitive processes, the experiential and emergent nature of its methodologies and the intrinsically interdisciplinary dimension of this mode of research that is derived from it material and social relationality. >> (Barrett 2007, p. 7) Barrett also identified a number of other attributes that qualify creative arts research as a new paradigm. These include processes that allow: << new objects of thought to emerge through cycles of making and reflection; a recognition of the generative potential of the ambiguity and the indeterminacy of the aesthetic object and the necessity for ongoing decoding, analysis and translation and, finally, the acknowledgement that instruments and objects of research are not passive, but emerge as co-producers in collaborative and, in the case of audiences, participatory approaches that may not be pre-determined at the outset of the research. >> (Barrett 2014, p. 3 cited by Bolt 2016, p. 131-2)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '12 4 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : ' [...] art research focuses on art objects and creative processes. This can involve aesthetic, hermeneutic, performative, expressive, and emotive points of view. If the focus of investigation is on the creative process, one should not lose sight of the result of that process - the work of art itself. Both the material content and the immaterial, non-conceptual, and nondiscursive contents of creative processes and artistic products may be articulated and communicated in the research study. In all cases, art research should examine the embeddedness and situatedness of its object of investigation. (Borgdorff 2012, p. 46-7)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '12 -4 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Wherein lies the specific nature of artistic research? Is that  in the research object - the uniqueness of artistic practice, of the work of art, of the creative process? Or does it lie in the research process - in the course it follows, the working procedures, the methods? Or, from a third point of view, does artistic research seek to reveal a special form of knowledge - tacit, practical, nonconceptual, non-discursive, sensory knowledge, as embodied in artistic products and processes? (Borgdorff 2012, p. 79)',
+            'align' : 'left',
+        }
+    },
+    {
         'height' : '6',
         'width' : '12',
-        'rotation' : '0 -45 0',
-        'position' : '30 -5 -15',
+        'rotation' : '0 0 0',
+        'position' : '-14 -8 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : '[...] rather than being a non-academic and independent research discipline, artistic research is situated in a multi-layered and multidimensional space principally defined by four non-conformal fields of gravitation: the subjective, the academic, the experimental, and the field of the art world.(Frisk 2013, p. 42)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '6',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-14 -4 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Not only experimentation in practice, but also reflection on practice and interpretation of practice, may be part of research in the arts as defined here. (Borgdorff 2012, p. 23)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '6',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-14 0 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'just as the material basis of artistic research results in approaches that are necessarily emergent, the subjective and personally situated aspect of artistic research-its relationality or what Carter refers to as its capacity to reinvent social relations (Carter 2004:1O)-results in research that is ultimately interdisciplinary. ( Barrett 2007b, p. 7)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-14 6 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Art practice qualifies as research when its purpose is to broaden our knowledge and understanding through an original investigation. It begins with questions that are pertinent to the research context and the art world, and employs methods that are appropriate to the study. The process and outcomes of the research are appropriately documented and disseminated to the research community and to the wider public. (Borgdorff 2012, p. 43)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-14 13 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : '[...] a characteristic of art - and perhaps of artistic research - is the sense in which it is necessarily openended. The uses to which art is put and how it operates are many and various and I would assert that “ provisionality” is an important aspect of what art can contribute to other disciplines? it is fundamentally incomplete and requires a spectator’s input  in order to exist or function. In this sense, spectatorship is a process of constructing a meaning, a world or a story from a fragment and is an activity that is essentially private. (O’Riley 2011, p. 1)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-14 20 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'The basic idea here is to see artistic research as a practice. An engaged practice, which in each context is imbued with the necessary qualities and substance to make it what it is, and also to apply its own internal logic to deciding between what makes sense and what is invalid. A practice with a defined direction, but with an open-ended, undetermined procedural trajectory. A practice that is particular, content-driven, self-critical, self-reflective and contextualized . (Hannula 2008: 112 cited by Sullivan 2011, p. 117)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '2',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-1 7 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'intrinsically interdisciplinary and transversal (Barrett 2014, p. 53)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-1 12 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Art practice qualifies as research if its purpose is to expand our knowledge and understanding by conducting an original investigation in and through art objects and creative processes. Art research begins by addressing questions that are pertinent in the research context and in the art world. Researchers employ experimental and hermeneutic methods that reveal and articulate the tacit knowledge that is situated and embodied in specific artworks and artistic processes. Research processes and outcomes are documented and disseminated in an appropriate manner to the research community and the wider public. (Borgdorff 2012, p. 53)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '-1 21 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : '(1) Artistic research concerns and affects the foundations of our perception, our understanding, and our relationship to the world and other people. I would call this the realism of artistic research. (2) Artistic research is ‘material thinking’: the articulation of non-propositional knowledge and experience, embodied  in artworks and creative processes. This is the non-conceptualism of artistic research. (3) Artistic research is not about theory, but about thought. It is not primarily directed at	‘knowing that ...’ or ‘knowing how ...’. It is directed more at a not-knowing, or a notyet-knowing. It creates room for that which is unthought, that which is unexpected - the idea that all things could be different. This is the contingency of artistic research. ( Borgdorff 2012, p. 124)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '12 12 -35',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'In the medium itself - in the creative process, the artwork, and its effects - perspectives are revealed and constituted, horizons are shifted, and new distinctions are articulated. The specific nature of artistic research can be pinpointed in the way that it both cognitively and artistically articulates this revealment and constitution of the world, an articulation which is normative, affective, and expressive all at once - and which also, as it were, sets our moral, psychological, and social life into motion. (Borgdorf  2012, p. 24)',
+            'align' : 'left',
+        }
+    },
+
+    {
+        'height' : '8',
+        'width' : '12',
+        'rotation' : '0 0 0',
+        'position' : '0 -3 -35',
         'backgroundColor' : '#ffffff',
         'text' : {
             'content' : '',
