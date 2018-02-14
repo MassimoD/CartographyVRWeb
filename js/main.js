@@ -35,6 +35,9 @@ var window = window;
 			elem.setAttribute('position', plane.position);
 			elem.setAttribute('color', plane.backgroundColor);
 			elem.setAttribute('class','link');
+
+			// Temporary
+            elem.setAttribute('opacity', 0);
 			
 			text = document.createElement('a-text');
 			text.setAttribute('value', plane.text.content);
@@ -42,6 +45,7 @@ var window = window;
 			text.setAttribute('width', (plane.text.width ? plane.text.width : textDefaults.width));
 			text.setAttribute('font', textDefaults.font);
             text.setAttribute('z-offset', textDefaults.zOffset);
+            text.setAttribute('color', (plane.text.color ? plane.text.color : textDefaults.color));
 
 			if(plane.text.align == 'left')
             	text.setAttribute('position', '-'+(plane.width/2 - 0.2));
