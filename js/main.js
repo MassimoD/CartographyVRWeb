@@ -20,7 +20,7 @@ var window = window;
 
 	var generatePlanes = function() 
 	{
-		var textDefaults = window.cartography.textDefaults;
+		var textDefaults = window.textDefaults;
 		var data = window.cartography.planes;
 		var scene = document.getElementById('scene');
 		var elem, text, plane;
@@ -140,5 +140,17 @@ var window = window;
 	document.addEventListener('keyup', animateCameraToNewPositionWithKeyboard);
     AFRAME.scenes[0].addEventListener('buttonup', animateCameraToNewPosition);
 
-	loadScript("./js/data.js", generatePlanes);
+	loadScript("./js/data.js", null);
+
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+
+    if(page == 'index.html'){
+        loadScript("./js/artistic-research-data.js", generatePlanes);
+    }
+    else {
+        loadScript("./js/practice-as-research-data.js", generatePlanes);
+    }
+
+
 })();
