@@ -450,5 +450,94 @@ window.cartography.planes = [
             'align' : 'left',
         }
     },
+    // ------------------------------------------------------------------------ Relation with the Academy
+    {
+        'height' : '2',
+        'width' : '9',
+        'rotation' : '75 0 0',
+        'position' : '-8 34 -15',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Relation with the Academy',
+            'width' : '16',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Critical assessment and self‐assessment are integral parts of artistic production today, not least within the community that works within the relational aesthetics tradition. Seminars, studio talks, etc. have become almost obligatory integral parts of art fairs, exhibitions and the like. Bringing methodological transparency and serious theoretical as well as aesthetic/artistic positioning into this already existing interaction would not be a problem since artists, curators and others are already driving the process themselves. Adjusting this intellectual activity so as to become more in line with other research assessing activities would also benefit researching artists’ interaction with the traditional academic community as it looks today (Anderson 2009, p. 7)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 33 -20',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Since artistic research has been accepted and established as credible research within art education and art institutions, we have to keep its possibilities open and move towards a vision of artistic research which is self-critical and self-reflexive. Put differently, we must have the courage to be anarchistic and experimental. ( Hannula 2011 p. 70 cité par Frisk 2013, p. 41)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-22 34 -18',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Like the social sciences and humanities before it, the development of artistic research has proceeded in the shadow of the research “model” par excellence, that is, science-as- research. Through its systematic procedures, methodological consistency and ongoing peer review, science lays claim to “objective truth”. The equation of objectiveness or objectivity with truth (through measurement and calculation) has become the hallmark of the tradition of science-as-research. Through its propositional form and its ability to establishing a correspondence between statements or modelling of the world and the world, science establishes true or false statements. Similarly, the social sciences and humanities produce descriptions that correspond to facts in the world. The creative arts, in contrast, are often criticised for the subjective and emergent quality of their research. Artistic often seems nebulous, unquantifiable and untestable: its procedures and methods emerge in and through the work rather than being prescribed in advance by the discipline. In the academic world at least, artistic research continues to be seen as lacking credibility because the methods cannot be replicated exactly, a principle central to scientific research. The lack of correspondence in findings between studies, the lack of replicability or innovation in artistic research is still not a goal that is valued by the sciences. (Bolt 2016, p. 137)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '6 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'While academia has encouraged an environment for thinking and writing about arts practice, it also needs to understand that the artistic research process is quite the reverse of the traditional research paradigm – analyze to create becomes create then analyze. ( Blom 2010, p. 370)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '6 34.6 -13',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'positioned at the interface of art and academia ( Borgdorff 2012, p. 3)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '6 37.5 -3',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Neither expanding the concept of science to include art (or vice versa), nor the equalizing of art and science on the basis of interpretation being central for both seems to solve the problem of the fundamental difference between the products of art and of science. My suggestion is to accept this difference, and build artistic research not on an a priori ontological merging of the two forms of meaning and knowledge, but on an epistemological and methodological adherence to similar principles of research practice. (Anderson 2009, p. 7)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '6 33 -19',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Artistic research also qualifies as such boundary work – and in two different directions. Artistic research is an activity undertaken in the borderland between the art world and the academic world. The topics, the questions, as well as the results of such research are judged, and have meaning, both in the art world and in academia. And in this respect artistic research appears to differ from more traditional academic research, whose relevance and validity is determined primarily within the community of peers, within the walls of academia, within the world of the universities. (Borgdorff 2012, p. 132)',
+            'align' : 'left',
+        }
+    },
 	// Les données doivent être rajoutés juste au dessus de cette ligne de commentaire
 ];
