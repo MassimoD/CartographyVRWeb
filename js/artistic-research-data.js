@@ -499,7 +499,7 @@ window.cartography.planes = [
         'height' : '10',
         'width' : '12',
         'rotation' : '75 0 0',
-        'position' : '6 36 -9',
+        'position' : '6 31.5 -20',
         'backgroundColor' : '#ffffff',
         'text' : {
             'content' : 'While academia has encouraged an environment for thinking and writing about arts practice, it also needs to understand that the artistic research process is quite the reverse of the traditional research paradigm – analyze to create becomes create then analyze. ( Blom 2010, p. 370)',
@@ -510,7 +510,7 @@ window.cartography.planes = [
         'height' : '10',
         'width' : '12',
         'rotation' : '75 0 0',
-        'position' : '6 34.6 -13',
+        'position' : '6 30.6 -23',
         'backgroundColor' : '#ffffff',
         'text' : {
             'content' : 'positioned at the interface of art and academia ( Borgdorff 2012, p. 3)',
@@ -521,7 +521,7 @@ window.cartography.planes = [
         'height' : '10',
         'width' : '12',
         'rotation' : '75 0 0',
-        'position' : '6 37.5 -3',
+        'position' : '6 33 -14',
         'backgroundColor' : '#ffffff',
         'text' : {
             'content' : 'Neither expanding the concept of science to include art (or vice versa), nor the equalizing of art and science on the basis of interpretation being central for both seems to solve the problem of the fundamental difference between the products of art and of science. My suggestion is to accept this difference, and build artistic research not on an a priori ontological merging of the two forms of meaning and knowledge, but on an epistemological and methodological adherence to similar principles of research practice. (Anderson 2009, p. 7)',
@@ -532,10 +532,88 @@ window.cartography.planes = [
         'height' : '10',
         'width' : '12',
         'rotation' : '75 0 0',
-        'position' : '6 33 -19',
+        'position' : '6 29 -28',
         'backgroundColor' : '#ffffff',
         'text' : {
             'content' : 'Artistic research also qualifies as such boundary work – and in two different directions. Artistic research is an activity undertaken in the borderland between the art world and the academic world. The topics, the questions, as well as the results of such research are judged, and have meaning, both in the art world and in academia. And in this respect artistic research appears to differ from more traditional academic research, whose relevance and validity is determined primarily within the community of peers, within the walls of academia, within the world of the universities. (Borgdorff 2012, p. 132)',
+            'align' : 'left',
+        }
+    },
+    // ------------------------------------------------------------------------ Exegesis
+    {
+        'height' : '2',
+        'width' : '9',
+        'rotation' : '75 0 0',
+        'position' : '-8 34 -15',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'Exegesis',
+            'width' : '16',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'the writing of the exegesis or research paper allows the practitioner- researcher to synthesise and articulate how the shift in language has occurred; and through subsequent contextual and comparative analysis, demonstrate how the work takes us beyond what is already known. ( BarreW 2014, p. 58)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'In creative arts research this requires situating the subjective within a broader theoretical and historical context, and the application of critical theories that have the ability to at least partially translate the knowledge produced. […] practitioner-researchers can use reflection and analysis in the exegesis to explore the generative potential of the artefact for knowledge transfer and to acknowledge the crucial role of audiences as co-producers of knowledge that will continue to emerge beyond the immediate research context. ( BarreW 2014, p. 60)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : '[…] artistic practices and creative processes are themselves the most suitable instruments of artistic research. It also implies that the most effective way of articulating, documenting, communicating, and disseminating the research results is not the dominant discursive one, but the way that uses the medium itself as its mode of expression. One need not deny the inescapability of language to still give primacy to the art itself in the research process and as the research outcome. Discursive expressions may accompany the research, but they can never take the place of the artistic ‘reasoning’. At best, they can ‘imitate’, suggest, or allude to what is being ventured in the artistic research, or can be employed in a post hoc reconstruction of the research process. (Borgdorff 2012, p. 69',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : '[…] academic writing […] is the labour of creating aesthetic ideas and of transforming into their public and discursive form that can be understood and evaluated by a group of appropriate peers in order to judge their relevance for research and society. The traditional model for academic writing is propositional text, while for the debates around artistic research the use of other media such as image or sound is of importance for a piece of writing. To employ multimedia in the context of academic writing is not unheard of, but it is their relationship to the text that is of concern if it is thought of as representational. If an image, for instance, appears to illustrate a text, we do have the sense that what is to be said resides in the text, while the image has a mere communicative function; conversely, if a text explains an image, we think that the image holds the meaning while the text merely elaborates on that meaning. Both cases use different voices, but it is the importance of representation (that text is represented through an image or vice versa) that makes it so difficult for artists, because contemporary art is defined aesthetically rather than representationally, at least if we are to follow Jacques Rancière\'s assessment of the situation, when he claims that the representational regime of the arts has been replaced by the aesthetic regime. ( Rancière 2004b) ( Schwab 2012, p. 3)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'The insistence on the obligation to produce a wriWen supplement […] appears to demonstrate a lack of confidence, either in the capacity of the arts to speak in a meaningful, complex, and critical way in a medium of their choosing, or in their own capacity to make sound judgements on the meaning, complexity and criticality of artistic output as such. (Lesage 2013, p. 144)',
+            'align' : 'left',
+        }
+    },
+    {
+        'height' : '10',
+        'width' : '12',
+        'rotation' : '75 0 0',
+        'position' : '-8 36 -9',
+        'backgroundColor' : '#ffffff',
+        'text' : {
+            'content' : 'the goal is an expanded notion of academic writing that includes a multiplicity of voices, diverse forms of presentation and an artistic re-negotiation of what it means to add to knowledge and understanding. (Schwab 2012, p. 5)',
             'align' : 'left',
         }
     },
