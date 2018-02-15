@@ -450,172 +450,174 @@ window.cartography.planes = [
             'align' : 'left',
         }
     },
+
     // ------------------------------------------------------------------------ Relation with the Academy
-    {
-        'height' : '2',
-        'width' : '9',
-        'rotation' : '65 0 0',
-        'position' : '-1 30 -26',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'Relation with the Academy',
-            'width' : '16',
-        }
-    },
-    {
-        'height' : '10',
-        'width' : '12',
-        'rotation' : '65 0 0',
-        'position' : '-1 33 -19.5',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'Critical assessment and self‐assessment are integral parts of artistic production today, not least within the community that works within the relational aesthetics tradition. Seminars, studio talks, etc. have become almost obligatory integral parts of art fairs, exhibitions and the like. Bringing methodological transparency and serious theoretical as well as aesthetic/artistic positioning into this already existing interaction would not be a problem since artists, curators and others are already driving the process themselves. Adjusting this intellectual activity so as to become more in line with other research assessing activities would also benefit researching artists’ interaction with the traditional academic community as it looks today (Anderson 2009, p. 7)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '10',
-        'width' : '12',
-        'rotation' : '65 0 0',
-        'position' : '-1 28 -31',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'Since artistic research has been accepted and established as credible research within art education and art institutions, we have to keep its possibilities open and move towards a vision of artistic research which is self-critical and self-reflexive. Put differently, we must have the courage to be anarchistic and experimental. ( Hannula 2011 p. 70 cité par Frisk 2013, p. 41)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '10',
-        'width' : '12',
-        'rotation' : '65 0 0',
-        'position' : '-14 32 -22.8',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'Like the social sciences and humanities before it, the development of artistic research has proceeded in the shadow of the research “model” par excellence, that is, science-as- research. Through its systematic procedures, methodological consistency and ongoing peer review, science lays claim to “objective truth”. The equation of objectiveness or objectivity with truth (through measurement and calculation) has become the hallmark of the tradition of science-as-research. Through its propositional form and its ability to establishing a correspondence between statements or modelling of the world and the world, science establishes true or false statements. Similarly, the social sciences and humanities produce descriptions that correspond to facts in the world. The creative arts, in contrast, are often criticised for the subjective and emergent quality of their research. Artistic often seems nebulous, unquantifiable and untestable: its procedures and methods emerge in and through the work rather than being prescribed in advance by the discipline. In the academic world at least, artistic research continues to be seen as lacking credibility because the methods cannot be replicated exactly, a principle central to scientific research. The lack of correspondence in findings between studies, the lack of replicability or innovation in artistic research is still not a goal that is valued by the sciences. (Bolt 2016, p. 137)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '8',
-        'width' : '12',
-        'rotation' : '65 0 0',
-        'position' : '12 34 -17',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'Neither expanding the concept of science to include art (or vice versa), nor the equalizing of art and science on the basis of interpretation being central for both seems to solve the problem of the fundamental difference between the products of art and of science. My suggestion is to accept this difference, and build artistic research not on an a priori ontological merging of the two forms of meaning and knowledge, but on an epistemological and methodological adherence to similar principles of research practice. (Anderson 2009, p. 7)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '5',
-        'width' : '12',
-        'rotation' : '65 0 0',
-        'position' : '12 32 -22.8',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'While academia has encouraged an environment for thinking and writing about arts practice, it also needs to understand that the artistic research process is quite the reverse of the traditional research paradigm – analyze to create becomes create then analyze. ( Blom 2010, p. 370)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '1',
-        'width' : '12',
-        'rotation' : '65 0 0',
-        'position' : '12 30.3 -26',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'positioned at the interface of art and academia ( Borgdorff 2012, p. 3)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '12',
-        'width' : '12',
-        'rotation' : '65 0 0',
-        'position' : '12 28 -31',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'Artistic research also qualifies as such boundary work – and in two different directions. Artistic research is an activity undertaken in the borderland between the art world and the academic world. The topics, the questions, as well as the results of such research are judged, and have meaning, both in the art world and in academia. And in this respect artistic research appears to differ from more traditional academic research, whose relevance and validity is determined primarily within the community of peers, within the walls of academia, within the world of the universities. (Borgdorff 2012, p. 132)',
-            'align' : 'left',
-        }
-    },
+    // {
+    //     'height' : '2',
+    //     'width' : '9',
+    //     'rotation' : '90 0 0',
+    //     'position' : '-1 30 -20',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'Relation with the Academy',
+    //         'width' : '16',
+    //     }
+    // },
+    // {
+    //     'height' : '10',
+    //     'width' : '12',
+    //     'rotation' : '90 0 0',
+    //     'position' : '-1 30 -13.5',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'Critical assessment and self‐assessment are integral parts of artistic production today, not least within the community that works within the relational aesthetics tradition. Seminars, studio talks, etc. have become almost obligatory integral parts of art fairs, exhibitions and the like. Bringing methodological transparency and serious theoretical as well as aesthetic/artistic positioning into this already existing interaction would not be a problem since artists, curators and others are already driving the process themselves. Adjusting this intellectual activity so as to become more in line with other research assessing activities would also benefit researching artists’ interaction with the traditional academic community as it looks today (Anderson 2009, p. 7)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '10',
+    //     'width' : '12',
+    //     'rotation' : '90 0 0',
+    //     'position' : '-1 30 -25',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'Since artistic research has been accepted and established as credible research within art education and art institutions, we have to keep its possibilities open and move towards a vision of artistic research which is self-critical and self-reflexive. Put differently, we must have the courage to be anarchistic and experimental. ( Hannula 2011 p. 70 cité par Frisk 2013, p. 41)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '10',
+    //     'width' : '12',
+    //     'rotation' : '90 0 0',
+    //     'position' : '-14 30 -16.8',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'Like the social sciences and humanities before it, the development of artistic research has proceeded in the shadow of the research “model” par excellence, that is, science-as- research. Through its systematic procedures, methodological consistency and ongoing peer review, science lays claim to “objective truth”. The equation of objectiveness or objectivity with truth (through measurement and calculation) has become the hallmark of the tradition of science-as-research. Through its propositional form and its ability to establishing a correspondence between statements or modelling of the world and the world, science establishes true or false statements. Similarly, the social sciences and humanities produce descriptions that correspond to facts in the world. The creative arts, in contrast, are often criticised for the subjective and emergent quality of their research. Artistic often seems nebulous, unquantifiable and untestable: its procedures and methods emerge in and through the work rather than being prescribed in advance by the discipline. In the academic world at least, artistic research continues to be seen as lacking credibility because the methods cannot be replicated exactly, a principle central to scientific research. The lack of correspondence in findings between studies, the lack of replicability or innovation in artistic research is still not a goal that is valued by the sciences. (Bolt 2016, p. 137)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '8',
+    //     'width' : '12',
+    //     'rotation' : '90 0 0',
+    //     'position' : '12 30 -11',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'Neither expanding the concept of science to include art (or vice versa), nor the equalizing of art and science on the basis of interpretation being central for both seems to solve the problem of the fundamental difference between the products of art and of science. My suggestion is to accept this difference, and build artistic research not on an a priori ontological merging of the two forms of meaning and knowledge, but on an epistemological and methodological adherence to similar principles of research practice. (Anderson 2009, p. 7)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '5',
+    //     'width' : '12',
+    //     'rotation' : '90 0 0',
+    //     'position' : '12 30 -16.8',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'While academia has encouraged an environment for thinking and writing about arts practice, it also needs to understand that the artistic research process is quite the reverse of the traditional research paradigm – analyze to create becomes create then analyze. ( Blom 2010, p. 370)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '1',
+    //     'width' : '12',
+    //     'rotation' : '90 0 0',
+    //     'position' : '12 30 -20',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'positioned at the interface of art and academia ( Borgdorff 2012, p. 3)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '12',
+    //     'width' : '12',
+    //     'rotation' : '90 0 0',
+    //     'position' : '12 30 -25',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'Artistic research also qualifies as such boundary work – and in two different directions. Artistic research is an activity undertaken in the borderland between the art world and the academic world. The topics, the questions, as well as the results of such research are judged, and have meaning, both in the art world and in academia. And in this respect artistic research appears to differ from more traditional academic research, whose relevance and validity is determined primarily within the community of peers, within the walls of academia, within the world of the universities. (Borgdorff 2012, p. 132)',
+    //         'align' : 'left',
+    //     }
+    // },
     // ------------------------------------------------------------------------ Exegesis
-    {
-        'height' : '2',
-        'width' : '9',
-        'rotation' : '-50 0 0',
-        'position' : '-1 -11.5 -30.5',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'Exegesis',
-            'width' : '16',
-        }
-    },
-    {
-        'height' : '5',
-        'width' : '12',
-        'rotation' : '-50 0 0',
-        'position' : '-14 -12 -30',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'the writing of the exegesis or research paper allows the practitioner- researcher to synthesise and articulate how the shift in language has occurred; and through subsequent contextual and comparative analysis, demonstrate how the work takes us beyond what is already known. ( BarreW 2014, p. 58)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '6',
-        'width' : '12',
-        'rotation' : '-50 0 0',
-        'position' : '-14 -16 -25.5',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'In creative arts research this requires situating the subjective within a broader theoretical and historical context, and the application of critical theories that have the ability to at least partially translate the knowledge produced. […] practitioner-researchers can use reflection and analysis in the exegesis to explore the generative potential of the artefact for knowledge transfer and to acknowledge the crucial role of audiences as co-producers of knowledge that will continue to emerge beyond the immediate research context. ( BarreW 2014, p. 60)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '10',
-        'width' : '12',
-        'rotation' : '-50 0 0',
-        'position' : '-1 -15.5 -25.5',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : '[…] artistic practices and creative processes are themselves the most suitable instruments of artistic research. It also implies that the most effective way of articulating, documenting, communicating, and disseminating the research results is not the dominant discursive one, but the way that uses the medium itself as its mode of expression. One need not deny the inescapability of language to still give primacy to the art itself in the research process and as the research outcome. Discursive expressions may accompany the research, but they can never take the place of the artistic ‘reasoning’. At best, they can ‘imitate’, suggest, or allude to what is being ventured in the artistic research, or can be employed in a post hoc reconstruction of the research process. (Borgdorff 2012, p. 69',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '10',
-        'width' : '12',
-        'rotation' : '-50 0 0',
-        'position' : '12 -15 -26.5',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : '[…] academic writing […] is the labour of creating aesthetic ideas and of transforming into their public and discursive form that can be understood and evaluated by a group of appropriate peers in order to judge their relevance for research and society. The traditional model for academic writing is propositional text, while for the debates around artistic research the use of other media such as image or sound is of importance for a piece of writing. To employ multimedia in the context of academic writing is not unheard of, but it is their relationship to the text that is of concern if it is thought of as representational. If an image, for instance, appears to illustrate a text, we do have the sense that what is to be said resides in the text, while the image has a mere communicative function; conversely, if a text explains an image, we think that the image holds the meaning while the text merely elaborates on that meaning. Both cases use different voices, but it is the importance of representation (that text is represented through an image or vice versa) that makes it so difficult for artists, because contemporary art is defined aesthetically rather than representationally, at least if we are to follow Jacques Rancière\'s assessment of the situation, when he claims that the representational regime of the arts has been replaced by the aesthetic regime. ( Rancière 2004b) ( Schwab 2012, p. 3)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '6',
-        'width' : '12',
-        'rotation' : '-50 0 0',
-        'position' : '-14 -20.3 -20.3',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'The insistence on the obligation to produce a wriWen supplement […] appears to demonstrate a lack of confidence, either in the capacity of the arts to speak in a meaningful, complex, and critical way in a medium of their choosing, or in their own capacity to make sound judgements on the meaning, complexity and criticality of artistic output as such. (Lesage 2013, p. 144)',
-            'align' : 'left',
-        }
-    },
-    {
-        'height' : '4',
-        'width' : '12',
-        'rotation' : '-50 0 0',
-        'position' : '-1 -20 -20.3',
-        'backgroundColor' : '#ffffff',
-        'text' : {
-            'content' : 'the goal is an expanded notion of academic writing that includes a multiplicity of voices, diverse forms of presentation and an artistic re-negotiation of what it means to add to knowledge and understanding. (Schwab 2012, p. 5)',
-            'align' : 'left',
-        }
-    },
+    // {
+    //     'height' : '2',
+    //     'width' : '9',
+    //     'rotation' : '-90 0 0',
+    //     'position' : '-1 -12 -24.5',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'Exegesis',
+    //         'width' : '16',
+    //     }
+    // },
+    // {
+    //     'height' : '5',
+    //     'width' : '12',
+    //     'rotation' : '-90 0 0',
+    //     'position' : '-14 -12 -24',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'the writing of the exegesis or research paper allows the practitioner- researcher to synthesise and articulate how the shift in language has occurred; and through subsequent contextual and comparative analysis, demonstrate how the work takes us beyond what is already known. ( BarreW 2014, p. 58)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '6',
+    //     'width' : '12',
+    //     'rotation' : '-90 0 0',
+    //     'position' : '-14 -12 -19.5',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'In creative arts research this requires situating the subjective within a broader theoretical and historical context, and the application of critical theories that have the ability to at least partially translate the knowledge produced. […] practitioner-researchers can use reflection and analysis in the exegesis to explore the generative potential of the artefact for knowledge transfer and to acknowledge the crucial role of audiences as co-producers of knowledge that will continue to emerge beyond the immediate research context. ( BarreW 2014, p. 60)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '10',
+    //     'width' : '12',
+    //     'rotation' : '-90 0 0',
+    //     'position' : '-1 -12 -19.5',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : '[…] artistic practices and creative processes are themselves the most suitable instruments of artistic research. It also implies that the most effective way of articulating, documenting, communicating, and disseminating the research results is not the dominant discursive one, but the way that uses the medium itself as its mode of expression. One need not deny the inescapability of language to still give primacy to the art itself in the research process and as the research outcome. Discursive expressions may accompany the research, but they can never take the place of the artistic ‘reasoning’. At best, they can ‘imitate’, suggest, or allude to what is being ventured in the artistic research, or can be employed in a post hoc reconstruction of the research process. (Borgdorff 2012, p. 69',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '10',
+    //     'width' : '12',
+    //     'rotation' : '-90 0 0',
+    //     'position' : '12 -12 -20.5',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : '[…] academic writing […] is the labour of creating aesthetic ideas and of transforming into their public and discursive form that can be understood and evaluated by a group of appropriate peers in order to judge their relevance for research and society. The traditional model for academic writing is propositional text, while for the debates around artistic research the use of other media such as image or sound is of importance for a piece of writing. To employ multimedia in the context of academic writing is not unheard of, but it is their relationship to the text that is of concern if it is thought of as representational. If an image, for instance, appears to illustrate a text, we do have the sense that what is to be said resides in the text, while the image has a mere communicative function; conversely, if a text explains an image, we think that the image holds the meaning while the text merely elaborates on that meaning. Both cases use different voices, but it is the importance of representation (that text is represented through an image or vice versa) that makes it so difficult for artists, because contemporary art is defined aesthetically rather than representationally, at least if we are to follow Jacques Rancière\'s assessment of the situation, when he claims that the representational regime of the arts has been replaced by the aesthetic regime. ( Rancière 2004b) ( Schwab 2012, p. 3)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '6',
+    //     'width' : '12',
+    //     'rotation' : '-90 0 0',
+    //     'position' : '-14 -12 -14.3',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'The insistence on the obligation to produce a wriWen supplement […] appears to demonstrate a lack of confidence, either in the capacity of the arts to speak in a meaningful, complex, and critical way in a medium of their choosing, or in their own capacity to make sound judgements on the meaning, complexity and criticality of artistic output as such. (Lesage 2013, p. 144)',
+    //         'align' : 'left',
+    //     }
+    // },
+    // {
+    //     'height' : '4',
+    //     'width' : '12',
+    //     'rotation' : '-90 0 0',
+    //     'position' : '-1 -12 -14.3',
+    //     'backgroundColor' : '#ffffff',
+    //     'text' : {
+    //         'content' : 'the goal is an expanded notion of academic writing that includes a multiplicity of voices, diverse forms of presentation and an artistic re-negotiation of what it means to add to knowledge and understanding. (Schwab 2012, p. 5)',
+    //         'align' : 'left',
+    //     }
+    // },
+
 	// Les données doivent être rajoutés juste au dessus de cette ligne de commentaire
 ];
